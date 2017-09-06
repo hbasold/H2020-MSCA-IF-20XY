@@ -16,4 +16,4 @@ proposal:
 	pdflatex -jobname=document2 "\includeonly{doc2}\input{${proposal}}"
 
 clean:
-	rm -f *~ *.aux *.idx *.log *.bbl *.lol *.lof *.lot *.blg *-blx.bib *.out *.backup *.brf *.toc  *.bcf *.run.xml
+	rm -f *~ *.aux *.idx *.log *.bbl *.lol *.lof *.lot *.blg *-blx.bib *.out *.backup *.brf *.toc *.bcf *.run.xml
