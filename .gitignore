@@ -27,6 +27,7 @@
 *.synctex.gz
 *.synctex.gz(busy)
 *.pdfsync
+auto/
 
 ## Auxiliary and intermediate files from other packages:
 
@@ -41,6 +42,12 @@
 *.nav
 *.snm
 *.vrb
+
+# emacs/auctex
+auto/
+*~
+\#*#
+.#*
 
 # glossaries
 *.acn
